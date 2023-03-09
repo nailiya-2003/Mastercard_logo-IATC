@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    padding-top: 100px;
+}
+.logo {
+    max-width: 500px;
+    height: 350px;
+    background-color: rgb(226, 231, 233);  
+    position: relative;
+    border-radius: 3%; 
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+    margin: 0 auto;
+}
+.logo_rounds {
+    max-width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round {
+    width: 250px;
+    min-height: 250px;
+    background-color: rgba(236,0,10);
+    border-radius: 100%;
+    float: left; 
+    position: absolute;
+    left: 50px;
+    opacity: 0.8;
+}
+.round_2 {
+    width: 250px;
+    min-height: 250px;
+    background-color:rgb(247, 158, 0);
+    border-radius: 100%;
+    float: left; 
+    position: absolute;
+    right: 50px;
+    opacity: 0.8;
+}
+.logo .text {
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(3, 22, 22);
+    position: absolute;
+    bottom: 9px;
+    left: 157px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
